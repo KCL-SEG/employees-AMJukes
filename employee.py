@@ -30,7 +30,7 @@ class Employee:
             string += " and receives a bonus commission of " + str(self.bonus)
         if self.commission:
             string += " and receives a commission for " + str(self.contractsCompleted) + " contract(s) at " + str(self.commission) + "/contract"
-        string += ". Their total pay is " + str(self.get_pay())
+        string += ". Their total pay is " + str(self.get_pay()) + "."
         return string
 
 
